@@ -1,0 +1,53 @@
+/* Scroll indicator: a thread of light travelling down a hairline */
+@keyframes thread-fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  60%,
+  100% {
+    transform: translateY(260%);
+  }
+}
+
+.scroll-thread {
+  position: relative;
+  width: 1px;
+  height: 56px;
+  overflow: hidden;
+  background: rgb(245 241 232 / 0.18);
+}
+.scroll-thread::after {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 40%;
+  background: linear-gradient(to bottom, transparent, var(--color-gold));
+  animation: thread-fall 2.4s var(--ease-curtain) infinite;
+}
+
+@keyframes slow-drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.marquee-track {
+  animation: slow-drift 60s linear infinite;
+}
+
+/* Elements that animate in are hidden until JS runs, to avoid a flash */
+.js-motion [data-reveal] {
+  visibility: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-thread::after,
+  .marquee-track {
+    animation: none;
+  }
+  .js-motion [data-reveal] {
+    visibility: visible;
+  }
+}

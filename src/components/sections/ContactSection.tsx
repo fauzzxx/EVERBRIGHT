@@ -1,7 +1,7 @@
 import { Copy, MapPin, MessageCircle } from 'lucide-react';
 import { useState, type FormEvent } from 'react';
 import { brand } from '../../config/brand';
-import { contact, isConfigured } from '../../config/contact';
+import { contact, telHref } from '../../config/contact';
 import { useCatalog } from '../../context/CatalogContext';
 import { generalEnquiryMessage, mapsUrl, whatsappUrl } from '../../lib/enquiry';
 import { Reveal } from '../animations/Reveal';
@@ -55,8 +55,27 @@ export function ContactSection() {
           </Reveal>
 
           <Reveal className="mt-12 grid max-w-xl sm:grid-cols-2 sm:gap-x-8">
-            <Detail label="WhatsApp" value={isConfigured.whatsapp ? (contact.whatsappNumber.trim().startsWith('+') ? contact.whatsappNumber.trim() : `+${contact.whatsappNumber.trim()}`) : ''} pending="Number to be added" />
-            <Detail label="Phone" value={contact.phone} pending="Number to be added" />
+            <div className="border-t border-ivory/12 py-5 sm:col-span-2">
+              <p className="eyebrow text-[0.56rem] text-gold">Call or WhatsApp · in order of priority</p>
+              {contact.phones.length ? (
+                <ol className="mt-3 space-y-3">
+                  {contact.phones.map((ph, i) => (
+                    <li key={ph.number} className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+                      <span className="font-serif text-sm italic text-gold">{String(i + 1).padStart(2, '0')}</span>
+                      <a href={telHref(ph.number)} className="link-line text-[1.05rem] text-ivory">
+                        {ph.number}
+                      </a>
+                      <span className="text-[0.8rem] text-ivory/55">
+                        {i === 0 && contact.contactName ? `${contact.contactName} · ` : ''}
+                        {ph.note}
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+              ) : (
+                <p className="mt-2 font-serif text-lg italic text-ivory/40">Numbers to be added</p>
+              )}
+            </div>
             <Detail label="Email" value={contact.email} pending="Email to be added" />
             <Detail label="Official store" value={contact.storeAddress} pending="Address to be added" />
           </Reveal>

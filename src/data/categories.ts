@@ -8,8 +8,9 @@ export const divisions: Division[] = [
   {
     id: 'police',
     index: '01',
-    name: 'EVERBRIGHT UNIFORM POLICE',
-    shortName: 'Uniform Police',
+    name: 'EVERBRIGHT POLICE STORE',
+    shortName: 'Police Store',
+    path: '/police-store',
     anchor: 'police',
     headline: 'UNIFORMS FOR\nTHOSE WHO SERVE.',
     // EDITABLE
@@ -26,8 +27,9 @@ export const divisions: Division[] = [
   {
     id: 'uniform',
     index: '02',
-    name: 'EVERBRIGHT UNIFORM',
-    shortName: 'Uniform',
+    name: 'EVERBRIGHT UNIFORMS',
+    shortName: 'Uniforms',
+    path: '/uniforms',
     anchor: 'uniform',
     headline: 'DESIGNED FOR\nEVERY PROFESSION.',
     // EDITABLE
@@ -44,12 +46,13 @@ export const divisions: Division[] = [
   {
     id: 'bags',
     index: '03',
-    name: 'EVERBRIGHT PROTECTIVE BAGS',
-    shortName: 'Protective Bags',
+    name: 'EVERBRIGHT FIRE AND SAFETY',
+    shortName: 'Fire and Safety',
+    path: '/fire-and-safety',
     anchor: 'bags',
     headline: 'PROTECT WHAT\nMATTERS MOST.',
     // EDITABLE
-    intro: 'Leather protective document bags, made to keep important papers together and protected.',
+    intro: 'Fire and safety products, including leather protective document bags made to keep important papers together.',
     theme: 'dark',
     featuredProductIds: [],
   },

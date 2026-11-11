@@ -19,6 +19,14 @@ export const contact = {
   storeAddress: (env.VITE_STORE_ADDRESS as string | undefined) ?? '',
   email: (env.VITE_CONTACT_EMAIL as string | undefined) ?? '',
   phone: (env.VITE_CONTACT_PHONE as string | undefined) ?? '',
+  /** Name of the first-priority contact person */
+  contactName: (env.VITE_CONTACT_NAME as string | undefined) ?? '',
+  /** Phone numbers in priority order. Only the first is also on WhatsApp. */
+  phones: [
+    { number: (env.VITE_CONTACT_PHONE as string | undefined) ?? '', note: 'Calls & WhatsApp' },
+    { number: (env.VITE_CONTACT_PHONE_2 as string | undefined) ?? '', note: 'Calls only' },
+    { number: (env.VITE_CONTACT_PHONE_3 as string | undefined) ?? '', note: 'Calls only' },
+  ].filter((p) => p.number.trim().length > 0),
   /** Social profiles — leave a URL empty to show the network as "coming soon". */
   socials: [
     { name: 'Instagram', url: (env.VITE_INSTAGRAM_URL as string | undefined) ?? '' },
@@ -26,6 +34,9 @@ export const contact = {
     { name: 'LinkedIn', url: (env.VITE_LINKEDIN_URL as string | undefined) ?? '' },
   ],
 } as const;
+
+/** tel: link for a displayed phone number */
+export const telHref = (n: string) => `tel:+${n.replace(/\D/g, '')}`;
 
 export const isConfigured = {
   whatsapp: contact.whatsappNumber.replace(/\D/g, '').length >= 8,

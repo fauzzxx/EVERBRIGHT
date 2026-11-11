@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { useLocation } from 'react-router';
-import { navigation } from '../../data/navigation';
+import { Link, useLocation } from 'react-router';
+import { useCatalog } from '../../context/CatalogContext';
+import { divisionNavOrder, navigation } from '../../data/navigation';
 import { useSectionNav } from '../../hooks/useSectionNav';
 import { introState } from '../../lib/introState';
 import { gsap } from '../../lib/gsap';
@@ -27,6 +28,7 @@ export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const barRef = useRef<HTMLElement>(null);
   const closeMenu = useCallback(() => setMenuOpen(false), []);
+  const { getDivision } = useCatalog();
 
   // Wait for the intro on the home page.
   useEffect(() => {
@@ -68,11 +70,16 @@ export function Navbar() {
       if (!raf) raf = requestAnimationFrame(update);
     };
     update();
+    // the page content may render a moment after navigation
+    const t1 = window.setTimeout(update, 60);
+    const t2 = window.setTimeout(update, 400);
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll);
     return () => {
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onScroll);
+      window.clearTimeout(t1);
+      window.clearTimeout(t2);
       cancelAnimationFrame(raf);
     };
   }, [isHome, location.pathname]);
@@ -85,12 +92,41 @@ export function Navbar() {
           hidden && !menuOpen ? '-translate-y-full' : 'translate-y-0'
         } ${ready ? 'opacity-100' : 'pointer-events-none opacity-0'}`}
       >
-        <nav className="gutter flex h-[var(--nav-h)] items-center justify-between gap-8" aria-label="Main">
+        {/* Division bar: the three Everbright divisions, each with its own page */}
+        <nav aria-label="Divisions" className="border-b border-gold/25">
+          <ul className="grid grid-cols-3">
+            {divisionNavOrder.map((id, i) => {
+              const d = getDivision(id);
+              const on = location.pathname === d.path;
+              return (
+                <li key={id} data-nav-item className={i ? 'border-l border-gold/30' : ''}>
+                  <Link
+                    to={d.path}
+                    aria-current={on ? 'page' : undefined}
+                    className={`group relative flex h-9 items-center justify-center px-2 text-center eyebrow text-[0.56rem] tracking-[0.16em] transition-colors sm:text-[0.62rem] sm:tracking-[0.26em] ${
+                      on ? 'text-gold' : 'opacity-90 hover:text-gold hover:opacity-100'
+                    }`}
+                  >
+                    <span className="hidden md:inline">{d.name}</span>
+                    <span className="md:hidden">{d.shortName}</span>
+                    <span
+                      aria-hidden="true"
+                      className={`absolute inset-x-[30%] bottom-0 h-px origin-center bg-gold transition-transform duration-500 ${
+                        on ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
+                      }`}
+                    />
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+        <nav className="gutter flex h-[76px] items-center justify-between gap-8" aria-label="Main">
           <button type="button" data-nav-item onClick={() => goTo('top')} aria-label="Everbright Uniforms — home">
             <Wordmark />
           </button>
 
-          <ul className="hidden items-center gap-[clamp(1.2rem,2.2vw,2.4rem)] xl:flex">
+          <ul className="hidden items-center gap-[clamp(1.4rem,2.6vw,2.8rem)] lg:flex">
             {navigation.map((item) => (
               <li key={item.anchor} data-nav-item>
                 <button
@@ -109,7 +145,7 @@ export function Navbar() {
             type="button"
             data-nav-item
             onClick={() => setMenuOpen(true)}
-            className="group flex items-center gap-3 xl:hidden"
+            className="group flex items-center gap-3 lg:hidden"
             aria-label="Open menu"
             aria-expanded={menuOpen}
             aria-controls="mobile-menu"

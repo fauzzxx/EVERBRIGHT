@@ -44,6 +44,8 @@ export interface Division {
   index: string;
   name: string;
   shortName: string;
+  /** dedicated division page */
+  path: string;
   anchor: string;
   headline: string;
   intro: string;

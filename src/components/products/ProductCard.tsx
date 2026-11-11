@@ -17,7 +17,7 @@ export function ProductCard({ product, categoryLabel, index }: Props) {
   const [primary] = product.images;
   const secondary = product.images.find((im) => HOVER_VIEWS.has(im.view));
   const href = `/products/${product.id}`;
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(true);
 
   const open = (e: MouseEvent<HTMLAnchorElement>) => {
     if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;

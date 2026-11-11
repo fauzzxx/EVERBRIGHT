@@ -1,6 +1,8 @@
 import { X } from 'lucide-react';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { navigation } from '../../data/navigation';
+import { useNavigate } from 'react-router';
+import { useCatalog } from '../../context/CatalogContext';
+import { divisionNavOrder, navigation } from '../../data/navigation';
 import { whatsappUrl, generalEnquiryMessage, mapsUrl } from '../../lib/enquiry';
 import { gsap } from '../../lib/gsap';
 import { useSmoothScroll } from '../../hooks/useSmoothScroll';
@@ -19,6 +21,8 @@ export function MobileMenu({ open, onClose, onNavigate, active }: Props) {
   const [mounted, setMounted] = useState(open);
   const { stop, start } = useSmoothScroll();
   const closeBtn = useRef<HTMLButtonElement>(null);
+  const navigate = useNavigate();
+  const { getDivision } = useCatalog();
 
   useEffect(() => {
     if (open) setMounted(true);
@@ -59,6 +63,14 @@ export function MobileMenu({ open, onClose, onNavigate, active }: Props) {
   }, [open, mounted, onClose, stop, start]);
 
   if (!mounted) return null;
+  const items = [
+    ...navigation.slice(0, 2).map((n) => ({ key: n.anchor, label: n.label, anchor: n.anchor, path: '', division: false })),
+    ...divisionNavOrder.map((id) => {
+      const d = getDivision(id);
+      return { key: d.path, label: d.name, anchor: '', path: d.path, division: true };
+    }),
+    ...navigation.slice(2).map((n) => ({ key: n.anchor, label: n.label, anchor: n.anchor, path: '', division: false })),
+  ];
   const wa = whatsappUrl(generalEnquiryMessage({}));
 
   return (
@@ -68,9 +80,9 @@ export function MobileMenu({ open, onClose, onNavigate, active }: Props) {
       role="dialog"
       aria-modal="true"
       aria-label="Menu"
-      className="weave fixed inset-0 z-[70] flex flex-col bg-midnight text-ivory invisible"
+      className="weave fixed inset-0 z-[70] flex w-full max-w-[100vw] flex-col overflow-x-hidden bg-midnight text-ivory invisible"
     >
-      <div className="gutter flex h-[var(--nav-h)] items-center justify-between border-b border-ivory/10">
+      <div className="gutter flex h-[76px] items-center justify-between border-b border-ivory/10">
         <Wordmark />
         <button ref={closeBtn} type="button" onClick={onClose} className="flex items-center gap-3" aria-label="Close menu">
           <span className="eyebrow text-[0.6rem]">Close</span>
@@ -79,23 +91,28 @@ export function MobileMenu({ open, onClose, onNavigate, active }: Props) {
       </div>
       <nav className="gutter flex flex-1 flex-col justify-center overflow-y-auto py-10" aria-label="Mobile">
         <ol className="space-y-[clamp(0.4rem,1.6vh,1rem)]">
-          {navigation.map((item, i) => (
-            <li key={item.anchor} className="overflow-hidden">
+          {items.map((item, i) => (
+            <li
+              key={item.key}
+              className={`overflow-hidden ${item.division ? 'border-l border-gold/40 pl-4' : ''} ${
+                item.division && !items[i - 1]?.division ? 'mt-4 pt-1' : ''
+              } ${item.division && !items[i + 1]?.division ? 'mb-4 pb-1' : ''}`}
+            >
               <button
                 type="button"
                 data-menu-link
                 onClick={() => {
                   onClose();
-                  setTimeout(() => onNavigate(item.anchor), 380);
+                  setTimeout(() => (item.path ? navigate(item.path) : onNavigate(item.anchor)), 380);
                 }}
-                className="group flex w-full items-baseline gap-5 text-left"
+                className="group flex w-full min-w-0 items-baseline gap-5 text-left"
               >
-                <span className="flex items-baseline gap-5">
-                  <span className="eyebrow w-6 text-[0.6rem] text-gold">{String(i + 1).padStart(2, '0')}</span>
+                <span className="flex min-w-0 items-baseline gap-5">
+                  <span className="eyebrow w-6 shrink-0 text-[0.6rem] text-gold">{String(i + 1).padStart(2, '0')}</span>
                   <span
-                    className={`font-serif text-[clamp(1.7rem,6.4vw,3.6rem)] font-light leading-[1.05] transition-colors group-hover:text-gold ${
-                      active === item.anchor ? 'text-gold' : ''
-                    }`}
+                    className={`min-w-0 break-words font-serif font-light leading-[1.08] transition-colors group-hover:text-gold ${
+                      item.division ? 'text-[clamp(1.2rem,5vw,2.6rem)]' : 'text-[clamp(1.7rem,6.4vw,3.6rem)]'
+                    } ${active === item.anchor && item.anchor ? 'text-gold' : ''}`}
                   >
                     {item.label}
                   </span>

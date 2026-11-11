@@ -21,7 +21,7 @@ export const brand = {
     headline: 'QUALITY IN EVERY DETAIL.',
     // EDITABLE — company introduction (facts: three divisions and the catalogued range)
     introduction:
-      'Everbright Uniforms dresses working teams through three dedicated divisions — Everbright Uniform Police, Everbright Uniform and Everbright Protective Bags — each with its own catalogue of designs.',
+      'Everbright Uniforms dresses working teams through three dedicated divisions — Everbright Uniforms, Everbright Police Store and Everbright Fire and Safety — each with its own catalogue of designs.',
     blocks: [
       {
         title: 'Brand philosophy',

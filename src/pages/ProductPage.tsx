@@ -39,7 +39,7 @@ export function ProductPage() {
       <div className="gutter border-b border-midnight/10 py-4">
         <button
           type="button"
-          onClick={() => navigate('/', { state: { scrollTo: division.anchor } })}
+          onClick={() => navigate(division.path)}
           className="group eyebrow flex items-center gap-3 text-[0.6rem] text-midnight/70 hover:text-midnight"
         >
           <ArrowLeft size={14} strokeWidth={1.2} className="transition-transform group-hover:-translate-x-1" />

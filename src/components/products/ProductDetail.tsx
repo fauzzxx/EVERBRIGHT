@@ -1,6 +1,7 @@
 import { ArrowLeft, ArrowRight, MapPin, MessageCircle, X } from 'lucide-react';
 import { forwardRef, useState } from 'react';
 import { useCatalog } from '../../context/CatalogContext';
+import { contact, telHref } from '../../config/contact';
 import { mapsUrl, productEnquiryMessage, productReference, whatsappUrl } from '../../lib/enquiry';
 import type { Product } from '../../types/catalog';
 import { ProductGallery } from './ProductGallery';
@@ -128,6 +129,25 @@ export const ProductDetail = forwardRef<HTMLDivElement, Props>(function ProductD
               </button>
             )}
           </div>
+          {(contact.storeAddress || contact.phones.length > 0) && (
+            <div className="mt-5 space-y-1.5 text-[0.82rem] leading-relaxed text-midnight/65">
+              {contact.storeAddress && (
+                <p>
+                  <span className="eyebrow mr-2 text-[0.55rem] text-midnight/45">Store</span>
+                  {contact.storeAddress}
+                </p>
+              )}
+              {contact.phones[0] && (
+                <p>
+                  <span className="eyebrow mr-2 text-[0.55rem] text-midnight/45">Call</span>
+                  <a href={telHref(contact.phones[0].number)} className="link-line text-midnight">
+                    {contact.phones[0].number}
+                  </a>
+                  {contact.contactName ? ` · ${contact.contactName}` : ''}
+                </p>
+              )}
+            </div>
+          )}
           {(!wa || !mapsUrl) && (
             <p className="mt-3 text-xs leading-relaxed text-midnight/50">
               {!wa && 'WhatsApp number not yet configured. '}

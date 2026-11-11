@@ -1,6 +1,7 @@
 import { ArrowUp } from 'lucide-react';
 import { useLayoutEffect, useRef } from 'react';
-import { contact, isConfigured } from '../../config/contact';
+import { Link } from 'react-router';
+import { contact, isConfigured, telHref } from '../../config/contact';
 import { useCatalog } from '../../context/CatalogContext';
 import { useSectionNav } from '../../hooks/useSectionNav';
 import { prefersReducedMotion } from '../../hooks/useReducedMotion';
@@ -68,9 +69,9 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               {catalog.divisions.map((d) => (
                 <li key={d.id}>
-                  <button type="button" className={linkCls} onClick={() => goTo(d.anchor)}>
+                  <Link className={linkCls} to={d.path}>
                     {d.name}
-                  </button>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -94,6 +95,14 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li>{wa ? <a className={linkCls} href={wa} target="_blank" rel="noreferrer">WhatsApp</a> : <Pending>WhatsApp — number pending</Pending>}</li>
               <li>{mapsUrl ? <a className={linkCls} href={mapsUrl} target="_blank" rel="noreferrer">Visit the official store</a> : <Pending>Store location — pending</Pending>}</li>
+              {contact.phones.map((ph, i) => (
+                <li key={ph.number}>
+                  <a className={linkCls} href={telHref(ph.number)}>
+                    {ph.number}
+                  </a>
+                  <span className="ml-2 text-xs text-ivory/40">{i === 0 ? 'Calls & WhatsApp' : 'Calls'}</span>
+                </li>
+              ))}
               <li>{isConfigured.email ? <a className={linkCls} href={`mailto:${contact.email}`}>{contact.email}</a> : <Pending>Email — pending</Pending>}</li>
             </ul>
             <p className="eyebrow mt-8 mb-4 text-gold">Follow</p>

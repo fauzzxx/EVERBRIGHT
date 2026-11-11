@@ -30,6 +30,47 @@ from dataclasses import dataclass, field
 import pymupdf
 from PIL import Image, ImageDraw
 
+import numpy as np
+
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from watermark import GREY, WHITE, clean_backdrop, remove_gold_watermark, remove_watermark  # noqa: E402
+
+# Watermark handling per catalogue: overlay colours, or "gold" for the dense gold logo pattern.
+GOLD_WATERMARK = ("SECURITY CAP'S", "SHOULDER FLAPS", "SHOULDER PAD'S")
+NO_WATERMARK = ("E P S House Keeping",)
+
+
+# Striped / checked / very light fabrics where on-fabric removal would damage the weave:
+# only the backdrop around the garment is cleaned on these pages.
+BACKDROP_ONLY = {
+    "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf": {10, 11, 12},
+    "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf": {9, 10},
+    "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf": {9, 10},
+}
+
+
+def clean_pdf_pages(pdf_file: str, pages: list[Image.Image]) -> list[Image.Image]:
+    if pdf_file.startswith(NO_WATERMARK):
+        return pages
+    skip = BACKDROP_ONLY.get(pdf_file, set())
+    if skip:
+        return [Image.fromarray(clean_backdrop(np.array(p))) if (i + 1) in skip else remove_watermark(p, [WHITE, GREY])
+                for i, p in enumerate(pages)]
+    if any(k in pdf_file for k in GOLD_WATERMARK):
+        arrs = [np.array(p) for p in pages]
+        groups: dict = {}
+        for i, a in enumerate(arrs):
+            groups.setdefault(a.shape, []).append(i)
+        out = list(arrs)
+        for idx in groups.values():
+            cleaned = remove_gold_watermark([arrs[i] for i in idx])
+            for i, c in zip(idx, cleaned):
+                out[i] = clean_backdrop(c, gold=True)
+        return [Image.fromarray(a) for a in out]
+    colours = [WHITE, GREY]
+    return [remove_watermark(p, colours) for p in pages]
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PDF_DIR = os.path.join(ROOT, "reference pdfs")
 OUT_IMG = os.path.join(ROOT, "public", "catalog")
@@ -347,6 +388,8 @@ def trim(im: Image.Image, margin=0.045, thr=0.02) -> Image.Image:
     sx, sy = W / w, H / h
     x0, x1 = xs[0] * sx, (xs[-1] + 1) * sx
     y0, y1 = ys[0] * sy, (ys[-1] + 1) * sy
+    if (x1 - x0) * (y1 - y0) < 0.35 * W * H:  # ink too faint to find the garment (e.g. white on white)
+        return im
     m = margin * max(x1 - x0, y1 - y0)
     box = (max(0, int(x0 - m)), max(0, int(y0 - m)), min(W, int(x1 + m)), min(H, int(y1 + m)))
     return im.crop(box)
@@ -387,7 +430,17 @@ def save(im: Image.Image, path: str) -> tuple[int, int]:
     if max(im.size) > MAX_SIDE:
         im.thumbnail((MAX_SIDE, MAX_SIDE), Image.LANCZOS)
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    im.save(path, "WEBP", quality=WEBP_QUALITY, method=6)
+    import time
+    for attempt in range(8):  # files can be briefly locked on Windows (open preview, antivirus)
+        try:
+            tmp = path + ".tmp"
+            im.save(tmp, "WEBP", quality=WEBP_QUALITY, method=6)
+            os.replace(tmp, path)
+            break
+        except OSError:
+            if attempt == 7:
+                raise
+            time.sleep(0.5)
     return im.size
 
 
@@ -409,10 +462,14 @@ def main():
         pdf_stats = {"pdf": pdf.file, "pages": len(doc), "products": 0, "images": 0, "division": pdf.division,
                      "note": pdf.note}
         assert len(doc) == len(pdf.items), (pdf.file, len(doc), len(pdf.items))
+        raws = []
+        for pg in doc:
+            xref = pg.get_images(full=True)[0][0]
+            raws.append(Image.open(io.BytesIO(doc.extract_image(xref)["image"])).convert("RGB"))
+        raws = clean_pdf_pages(pdf.file, raws)
+        print(f"  watermarks cleaned: {pdf.file}", flush=True)
         for it in pdf.items:
-            page = doc[it.page - 1]
-            xref = page.get_images(full=True)[0][0]
-            raw = Image.open(io.BytesIO(doc.extract_image(xref)["image"])).convert("RGB")
+            raw = raws[it.page - 1].copy()
             lay = it.layout or pdf.layout
             if pdf.file.startswith("E P S") and it.page <= 10:
                 erase_label(raw)

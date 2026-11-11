@@ -124,7 +124,7 @@ export function HeroSection() {
 
       <div className="hero-fade absolute inset-x-0 bottom-6 grid grid-cols-[1fr_auto_1fr] items-end gutter text-ivory/60">
         <p className="eyebrow hidden justify-self-start text-[0.6rem] tracking-[0.3em] lg:block">
-          Uniform Police · Uniform · Protective Bags
+          Uniforms · Police Store · Fire and Safety
         </p>
         <button
           type="button"

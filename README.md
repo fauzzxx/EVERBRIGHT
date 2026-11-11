@@ -1,7 +1,7 @@
 # Everbright Uniforms — website
 
 Cinematic catalogue website for **Everbright Uniforms** and its three divisions:
-EVERBRIGHT UNIFORM POLICE, EVERBRIGHT UNIFORM and EVERBRIGHT PROTECTIVE BAGS.
+EVERBRIGHT UNIFORMS, EVERBRIGHT POLICE STORE and EVERBRIGHT FIRE AND SAFETY.
 
 React 19 · TypeScript · Vite 6 · Tailwind CSS 4 · GSAP 3 + ScrollTrigger · Lenis · WebGL (hand-written shader) ·
 React Router 7 · lucide-react · self-hosted Cormorant Garamond + DM Sans.
@@ -79,6 +79,7 @@ reports/         extraction report, review report, image manifest, contact sheet
 ## Routes
 
 - `/` — home page with all sections.
+- `/uniforms`, `/police-store`, `/fire-and-safety` — one page per division (catalogue + ordering).
 - `/products/:id` — opens as a full-screen overlay from the catalogue (shareable URL); loads as a standalone
   page when visited directly.
 

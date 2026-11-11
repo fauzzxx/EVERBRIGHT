@@ -11,7 +11,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 products = json.load(open(os.path.join(ROOT, "src", "data", "products.json"), encoding="utf-8"))
 stats = json.load(open(os.path.join(ROOT, "reports", "extraction-stats.json"), encoding="utf-8"))
 
-DIV = {"police": "EVERBRIGHT UNIFORM POLICE", "uniform": "EVERBRIGHT UNIFORM", "bags": "EVERBRIGHT PROTECTIVE BAGS"}
+DIV = {"police": "EVERBRIGHT POLICE STORE", "uniform": "EVERBRIGHT UNIFORMS", "bags": "EVERBRIGHT FIRE AND SAFETY"}
 LABELS = {
     "security-shirts": "Security Shirts", "security-uniform-sets": "Security Uniform Sets",
     "ladies-guard-uniforms": "Ladies Guard Uniforms", "ladies-guard-uniforms-waistcoat": "Ladies Guard Uniforms with Waistcoat",

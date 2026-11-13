@@ -36,6 +36,9 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from watermark import GREY, WHITE, clean_backdrop, remove_gold_watermark, remove_watermark  # noqa: E402
 
+# Watermark removal is switched off: the owner prefers the original photographs.
+REMOVE_WATERMARKS = False
+
 # Watermark handling per catalogue: overlay colours, or "gold" for the dense gold logo pattern.
 GOLD_WATERMARK = ("SECURITY CAP'S", "SHOULDER FLAPS", "SHOULDER PAD'S")
 NO_WATERMARK = ("E P S House Keeping",)
@@ -51,6 +54,8 @@ BACKDROP_ONLY = {
 
 
 def clean_pdf_pages(pdf_file: str, pages: list[Image.Image]) -> list[Image.Image]:
+    if not REMOVE_WATERMARKS:
+        return pages
     if pdf_file.startswith(NO_WATERMARK):
         return pages
     skip = BACKDROP_ONLY.get(pdf_file, set())

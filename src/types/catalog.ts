@@ -20,6 +20,12 @@ export interface SpecLayer {
   standards: string[];
 }
 
+export interface SizeGroup {
+  /** e.g. "Shirt" or "Pant" */
+  label: string;
+  sizes: string[];
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -32,6 +38,8 @@ export interface Product {
   features: string[];
   images: ProductImage[];
   availableSizes: string[];
+  /** size ranges per garment (shirt / pant) */
+  sizeGroups?: SizeGroup[];
   availableColours: string[];
   sourcePdf: string;
   sourcePage: number[];

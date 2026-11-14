@@ -14,15 +14,25 @@ export function productReference(product: Product, categoryLabel: string): strin
     .join(' · ');
 }
 
-export function productEnquiryMessage(product: Product, division: Division, categoryLabel: string): string {
+export function productEnquiryMessage(
+  product: Product,
+  division: Division,
+  categoryLabel: string,
+  /** chosen sizes, e.g. { Shirt: '40', Pant: '32' } */
+  sizes: Record<string, string> = {},
+): string {
+  const chosen = Object.entries(sizes).filter(([, v]) => v);
   return [
     'Hello, I am interested in the following product from Everbright Uniforms.',
     '',
     `Product: ${product.name}`,
     `Division: ${division.name}`,
     `Reference: ${productReference(product, categoryLabel)}`,
+    ...chosen.map(([k, v]) => `${k} size: ${v}`),
     '',
-    'Please share more details about its availability, sizes and pricing.',
+    chosen.length
+      ? 'Please share more details about its availability and pricing.'
+      : 'Please share more details about its availability, sizes and pricing.',
     'Thank you.',
   ].join('\n');
 }

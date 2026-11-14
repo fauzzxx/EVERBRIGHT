@@ -37,12 +37,19 @@ export const ProductDetail = forwardRef<HTMLDivElement, Props>(function ProductD
   const pos = siblings.findIndex((p) => p.id === product.id);
   const prev = siblings[(pos - 1 + siblings.length) % siblings.length];
   const next = siblings[(pos + 1) % siblings.length];
-  const wa = whatsappUrl(productEnquiryMessage(product, division, catLabel));
+  const [sizes, setSizes] = useState<Record<string, string>>({});
+  const [sizesFor, setSizesFor] = useState(product.id);
+  if (sizesFor !== product.id) {
+    setSizesFor(product.id);
+    setSizes({});
+  }
+  const message = productEnquiryMessage(product, division, catLabel, sizes);
+  const wa = whatsappUrl(message);
   const [copied, setCopied] = useState(false);
 
   const copyMessage = async () => {
     try {
-      await navigator.clipboard.writeText(productEnquiryMessage(product, division, catLabel));
+      await navigator.clipboard.writeText(message);
       setCopied(true);
       setTimeout(() => setCopied(false), 2200);
     } catch {
@@ -94,11 +101,35 @@ export const ProductDetail = forwardRef<HTMLDivElement, Props>(function ProductD
             {product.colourway && <Row label="Colourway">{product.colourway}</Row>}
             {!product.layers && (
               <>
-                <Row label="Sizes">
-                  {product.availableSizes.length
-                    ? product.availableSizes.join(', ')
-                    : 'Not listed in the catalogue — ask us for the size range.'}
-                </Row>
+                {product.sizeGroups && product.sizeGroups.length > 0 ? (
+                  product.sizeGroups.map((g) => (
+                    <Row key={g.label} label={`${g.label} size`}>
+                      <div role="radiogroup" aria-label={`${g.label} size`} className="flex flex-wrap gap-1.5">
+                        {g.sizes.map((sz) => {
+                          const on = sizes[g.label] === sz;
+                          return (
+                            <button
+                              key={sz}
+                              type="button"
+                              role="radio"
+                              aria-checked={on}
+                              onClick={() => setSizes((s) => ({ ...s, [g.label]: on ? '' : sz }))}
+                              className={`min-w-[2.6rem] border px-2.5 py-1.5 text-[0.82rem] transition-colors ${
+                                on
+                                  ? 'border-midnight bg-midnight text-ivory'
+                                  : 'border-midnight/20 text-midnight/80 hover:border-midnight/60'
+                              }`}
+                            >
+                              {sz}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </Row>
+                  ))
+                ) : (
+                  <Row label="Sizes">Not listed in the catalogue — ask us for the size range.</Row>
+                )}
                 <Row label="Colours">
                   {product.availableColours.length
                     ? product.availableColours.join(', ')

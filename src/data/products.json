@@ -35,7 +35,14 @@
         "alt": "Shemray Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -44,7 +51,20 @@
     "sourceLabel": "01 | SHEMRAY SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-02-fila-fil",
@@ -82,7 +102,14 @@
         "alt": "Fila-Fil Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -91,7 +118,20 @@
     "sourceLabel": "02 | FILA-FIL SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-03-sky-blue",
@@ -129,7 +169,14 @@
         "alt": "Sky Blue Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -138,7 +185,20 @@
     "sourceLabel": "03 | SKY BLUE SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-04-royal-blue",
@@ -176,7 +236,14 @@
         "alt": "Royal Blue Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -185,7 +252,20 @@
     "sourceLabel": "04 | ROYAL BLUE SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-05-air-force-blue",
@@ -223,7 +303,14 @@
         "alt": "Air Force Blue Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -232,7 +319,20 @@
     "sourceLabel": "05 | AIR FORCE BLUE SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-06-apollo-blue",
@@ -270,7 +370,14 @@
         "alt": "Apollo Blue Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -279,7 +386,20 @@
     "sourceLabel": "06 | APPOLO BLUE SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-07-peacock-blue",
@@ -317,7 +437,14 @@
         "alt": "Peacock Blue Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -326,7 +453,20 @@
     "sourceLabel": "07 | PEACOCK BLUE SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-uniform-sets-08-dark-blue",
@@ -364,7 +504,21 @@
         "alt": "Dark Blue Security Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -373,7 +527,32 @@
     "sourceLabel": "08 | DARK BLUE SECURITY UNIFORM",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "security-uniform-sets-09-jet-black",
@@ -411,7 +590,21 @@
         "alt": "Jet Black Security Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -420,7 +613,32 @@
     "sourceLabel": "09 | JET BLACK SECURITY UNIFORM",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-10-white",
@@ -458,7 +676,14 @@
         "alt": "White Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -467,7 +692,20 @@
     "sourceLabel": "10 | WHITE SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-11-blue-lining",
@@ -505,7 +743,14 @@
         "alt": "Blue Lining Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -514,7 +759,20 @@
     "sourceLabel": "11 | BLUE LINING SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-12-light-grey",
@@ -552,7 +810,14 @@
         "alt": "Light Grey Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -561,7 +826,20 @@
     "sourceLabel": "12 | LIGHT GREY SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-13-dark-grey",
@@ -599,7 +877,14 @@
         "alt": "Dark Grey Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -608,7 +893,20 @@
     "sourceLabel": "13 | DARK GREY SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-14-beige",
@@ -646,7 +944,14 @@
         "alt": "Beige Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -655,7 +960,20 @@
     "sourceLabel": "14 | BEIGE SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-15-biscuit",
@@ -693,7 +1011,14 @@
         "alt": "Biscuit Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -702,7 +1027,20 @@
     "sourceLabel": "15 | BISCUIT SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-16-light-green",
@@ -740,7 +1078,14 @@
         "alt": "Light Green Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -749,7 +1094,20 @@
     "sourceLabel": "16 | LIGHT GREEN SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "security-shirts-17-bottle-green",
@@ -787,7 +1145,14 @@
         "alt": "Bottle Green Security Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE SECURITY SHIRT'S.pdf",
     "sourcePage": [
@@ -796,7 +1161,20 @@
     "sourceLabel": "17 | BOTTLE GREEN SECURITY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-01-shemray-dark-blue",
@@ -834,7 +1212,21 @@
         "alt": "Shemray & Dark Blue Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -843,7 +1235,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | SHEMRAY & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-02-fila-fil-black",
@@ -881,7 +1298,21 @@
         "alt": "Fila-Fil & Black Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -890,7 +1321,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | FILA-FIL & BLACK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-03-biscuit-coffee",
@@ -928,7 +1384,21 @@
         "alt": "Biscuit & Coffee Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -937,7 +1407,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | BISCUIT & COFFE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-04-dark-blue-red",
@@ -975,7 +1470,21 @@
         "alt": "Dark Blue & Red Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -984,7 +1493,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | DARK BLUE & RED",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-05-air-force-blue-dark-blue",
@@ -1022,7 +1556,21 @@
         "alt": "Air Force Blue & Dark Blue Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -1031,7 +1579,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | AIR FORCE BLUE & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-06-maroon-black",
@@ -1069,7 +1642,21 @@
         "alt": "Maroon & Black Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -1078,7 +1665,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | MAROON & BLACK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-07-cyan-dark-blue",
@@ -1116,7 +1728,21 @@
         "alt": "Cyan & Dark Blue Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -1125,7 +1751,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | CYAN & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-08-grey-with-cyan-black",
@@ -1163,7 +1814,21 @@
         "alt": "Grey with Cyan & Black Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -1172,7 +1837,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | GREY WITH CYAN & BLACK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-09-blue-lining-dark-blue",
@@ -1210,7 +1900,21 @@
         "alt": "Blue Lining & Dark Blue Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -1219,7 +1923,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | BLUE LINING & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-10-blue-checks-black",
@@ -1257,7 +1986,21 @@
         "alt": "Blue Checks & Black Guard Uniform — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S.pdf",
     "sourcePage": [
@@ -1266,7 +2009,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | BLUE CHECKS & BLACK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-01-shemray-dark-blue",
@@ -1304,7 +2072,21 @@
         "alt": "Shemray & Dark Blue Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1313,7 +2095,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | SHEMRAY & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-02-fila-fil-black",
@@ -1351,7 +2158,21 @@
         "alt": "Fila-Fil & Black Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1360,7 +2181,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | FILA-FIL & BLACK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-03-biscuit-coffee",
@@ -1398,7 +2244,21 @@
         "alt": "Biscuit & Coffee Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1407,7 +2267,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | BISCUIT & COFFE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-04-dark-blue-red",
@@ -1445,7 +2330,21 @@
         "alt": "Dark Blue & Red Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1454,7 +2353,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | DARK BLUE & RED",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-05-air-force-blue-dark-blue",
@@ -1492,7 +2416,21 @@
         "alt": "Air Force Blue & Dark Blue Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1501,7 +2439,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | AIR FORCE BLUE & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-06-maroon-black",
@@ -1539,7 +2502,21 @@
         "alt": "Maroon & Black Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1548,7 +2525,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | MAROON & BLACK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-07-cyan-dark-blue",
@@ -1586,7 +2588,21 @@
         "alt": "Cyan & Dark Blue Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1595,7 +2611,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | CYAN & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-08-grey-with-cyan-black",
@@ -1633,7 +2674,21 @@
         "alt": "Grey with Cyan & Black Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1642,7 +2697,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | GREY WITH CYAN & BLACK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-09-blue-lining-dark-blue",
@@ -1680,7 +2760,21 @@
         "alt": "Blue Lining & Dark Blue Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1689,7 +2783,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | BLUE LINING & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "ladies-guard-uniforms-waistcoat-10-blue-checks-black",
@@ -1727,7 +2846,21 @@
         "alt": "Blue Checks & Black Guard Uniform with Waistcoat — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT POLICE STORE LADY GUARD UNIFORM'S WITH WASE COAT.pdf",
     "sourcePage": [
@@ -1736,7 +2869,32 @@
     "sourceLabel": "LADIES SECURITY GUARD UNIFORM | BLUE CHECKS & BLACK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "security-cap-01",
@@ -1767,7 +2925,8 @@
     "sourceLabel": "01",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-02",
@@ -1798,7 +2957,8 @@
     "sourceLabel": "02",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-03",
@@ -1829,7 +2989,8 @@
     "sourceLabel": "03",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-04",
@@ -1860,7 +3021,8 @@
     "sourceLabel": "04",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-05",
@@ -1891,7 +3053,8 @@
     "sourceLabel": "NO. 05",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-06",
@@ -1922,7 +3085,8 @@
     "sourceLabel": "NO. 06",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-07",
@@ -1953,7 +3117,8 @@
     "sourceLabel": "NO. 07",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-08",
@@ -1984,7 +3149,8 @@
     "sourceLabel": "NO. 08",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-09",
@@ -2015,7 +3181,8 @@
     "sourceLabel": "NO. 09",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-10",
@@ -2046,7 +3213,8 @@
     "sourceLabel": "NO. 10",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-11",
@@ -2077,7 +3245,8 @@
     "sourceLabel": "NO. 11",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-12",
@@ -2108,7 +3277,8 @@
     "sourceLabel": "NO. 12",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-13",
@@ -2139,7 +3309,8 @@
     "sourceLabel": "NO. 13",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "security-cap-14",
@@ -2170,7 +3341,8 @@
     "sourceLabel": "NO. 14",
     "nameSource": "catalogue-number",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-01",
@@ -2203,7 +3375,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-02",
@@ -2236,7 +3409,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-03",
@@ -2269,7 +3443,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-04",
@@ -2302,7 +3477,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-05",
@@ -2335,7 +3511,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-06",
@@ -2368,7 +3545,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-07",
@@ -2401,7 +3579,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-08",
@@ -2434,7 +3613,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-09",
@@ -2467,7 +3647,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-design-10",
@@ -2500,7 +3681,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-11-black-with-golden",
@@ -2531,7 +3713,8 @@
     "sourceLabel": "Black with Golden",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-12-dark-blue-with-golden",
@@ -2562,7 +3745,8 @@
     "sourceLabel": "Dark Blue with Golden",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-13-red-with-golden",
@@ -2593,7 +3777,8 @@
     "sourceLabel": "Red with Golden",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-14-black-with-red",
@@ -2624,7 +3809,8 @@
     "sourceLabel": "Black with Red",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-15-black-with-white",
@@ -2655,7 +3841,8 @@
     "sourceLabel": "Black with White",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-16-black-with-orange-radium",
@@ -2686,7 +3873,8 @@
     "sourceLabel": "Black with Orange (Radium)",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-flaps-17-black-with-yellow-radium",
@@ -2717,7 +3905,8 @@
     "sourceLabel": "Black with Yellow (Radium)",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-01",
@@ -2750,7 +3939,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-02",
@@ -2783,7 +3973,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-03",
@@ -2816,7 +4007,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-04",
@@ -2849,7 +4041,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-05",
@@ -2882,7 +4075,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-06",
@@ -2915,7 +4109,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-07",
@@ -2948,7 +4143,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-08",
@@ -2981,7 +4177,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "shoulder-pads-design-09",
@@ -3014,7 +4211,8 @@
     "reviewRequired": true,
     "reviewNotes": [
       "No printed product name or colour on the catalogue page; name assigned from page order."
-    ]
+    ],
+    "sizeGroups": []
   },
   {
     "id": "housekeeping-shirts-01-dark-blue-maroon",
@@ -3052,7 +4250,14 @@
         "alt": "Dark Blue & Maroon Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3061,7 +4266,20 @@
     "sourceLabel": "01 | DARK BLUE & MAROON",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-02-jet-black-maroon",
@@ -3099,7 +4317,14 @@
         "alt": "Jet Black & Maroon Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3108,7 +4333,20 @@
     "sourceLabel": "02 | JET BLACK & MAROON",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-03-red-beige",
@@ -3146,7 +4384,14 @@
         "alt": "Red & Beige Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3155,7 +4400,20 @@
     "sourceLabel": "03 | RED & BEIGE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-04-beige-maroon",
@@ -3193,7 +4451,14 @@
         "alt": "Beige & Maroon Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3202,7 +4467,20 @@
     "sourceLabel": "04 | BEIGE & MAROON",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-05-light-grey-maroon",
@@ -3240,7 +4518,14 @@
         "alt": "Light Grey & Maroon Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3249,7 +4534,20 @@
     "sourceLabel": "05 | LIGHT GREY & MAROON",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-06-pink-dark-blue",
@@ -3287,7 +4585,14 @@
         "alt": "Pink & Dark Blue Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3296,7 +4601,20 @@
     "sourceLabel": "06 | PINK & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-07-pale-pink-dark-blue",
@@ -3334,7 +4652,14 @@
         "alt": "Pale Pink & Dark Blue Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3343,7 +4668,20 @@
     "sourceLabel": "07 | PALE PINK & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-08-coffee-beige",
@@ -3381,7 +4719,14 @@
         "alt": "Coffee & Beige Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3390,7 +4735,20 @@
     "sourceLabel": "08 | COFFE & BEIGE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-09-beige-navy",
@@ -3428,7 +4786,14 @@
         "alt": "Beige & Navy Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3437,7 +4802,20 @@
     "sourceLabel": "09 | BEIGE & NAVY",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-10-navy-orange",
@@ -3475,7 +4853,14 @@
         "alt": "Navy & Orange Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3484,7 +4869,20 @@
     "sourceLabel": "10 | NAVY & ORANGE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-11-purple-orange",
@@ -3522,7 +4920,14 @@
         "alt": "Purple & Orange Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3531,7 +4936,20 @@
     "sourceLabel": "11 | PURPLE & ORANGE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-12-royal-blue-orange",
@@ -3569,7 +4987,14 @@
         "alt": "Royal Blue & Orange Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3578,7 +5003,20 @@
     "sourceLabel": "12 | ROYAL BLUE & ORANGE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-13-purple-red",
@@ -3616,7 +5054,14 @@
         "alt": "Purple & Red Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3625,7 +5070,20 @@
     "sourceLabel": "13 | PURPLE & RED",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-14-cyan-dark-blue",
@@ -3663,7 +5121,14 @@
         "alt": "Cyan & Dark Blue Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3672,7 +5137,20 @@
     "sourceLabel": "14 | CYAN & DARK BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-15-navy-blue-cyan",
@@ -3710,7 +5188,14 @@
         "alt": "Navy Blue & Cyan Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3719,7 +5204,20 @@
     "sourceLabel": "15 | NAVY BLUE & CYAN",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-16-grey-cyan",
@@ -3757,7 +5255,14 @@
         "alt": "Grey & Cyan Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3766,7 +5271,20 @@
     "sourceLabel": "16 | GREY & CYAN",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-17-dark-blue-lining",
@@ -3804,7 +5322,14 @@
         "alt": "Dark Blue & Lining Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS H.K SHIRTS.pdf",
     "sourcePage": [
@@ -3813,7 +5338,20 @@
     "sourceLabel": "17 | DARK BLUE & LINING",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "housekeeping-shirts-eps-series-a-02-red-beige",
@@ -3851,7 +5389,14 @@
         "alt": "Red / Beige Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -3863,6 +5408,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -3901,7 +5459,14 @@
         "alt": "Charcoal / Maroon Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -3913,6 +5478,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -3951,7 +5529,14 @@
         "alt": "Brown / Beige Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -3963,6 +5548,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4001,7 +5599,14 @@
         "alt": "Beige / Maroon Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4013,6 +5618,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4051,7 +5669,14 @@
         "alt": "Navy / Blue Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4063,6 +5688,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4101,7 +5739,14 @@
         "alt": "Navy / Orange Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4113,6 +5758,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4151,7 +5809,14 @@
         "alt": "Purple / Orange Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4163,6 +5828,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4201,7 +5879,14 @@
         "alt": "Royal Blue / Orange Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4213,6 +5898,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4251,7 +5949,14 @@
         "alt": "Purple / Red Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4263,6 +5968,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4301,7 +6019,14 @@
         "alt": "Cyan Blue / Navy Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4313,6 +6038,19 @@
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division.",
       "Low-resolution source image (768 px wide page)."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4351,7 +6089,14 @@
         "alt": "Light Grey / Maroon Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4362,6 +6107,19 @@
     "reviewRequired": true,
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4400,7 +6158,14 @@
         "alt": "Beige / Navy Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4411,6 +6176,19 @@
     "reviewRequired": true,
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4449,7 +6227,14 @@
         "alt": "Pink / Black Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4460,6 +6245,19 @@
     "reviewRequired": true,
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4498,7 +6296,14 @@
         "alt": "Charcoal Grey / Cyan Blue Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4509,6 +6314,19 @@
     "reviewRequired": true,
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4547,7 +6365,14 @@
         "alt": "Black / Blue Striped Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4558,6 +6383,19 @@
     "reviewRequired": true,
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4596,7 +6434,14 @@
         "alt": "Pale Pink / Black Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4607,6 +6452,19 @@
     "reviewRequired": true,
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4647,7 +6505,14 @@
         "alt": "Dark Navy / Maroon Housekeeping Shirt — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "E P S House Keeping Shirt's.pdf",
     "sourcePage": [
@@ -4658,6 +6523,19 @@
     "reviewRequired": true,
     "reviewNotes": [
       "Filename 'E P S House Keeping Shirt's' may refer to the Police Store, but the pages show unbranded housekeeping shirts with no police/security reference. Shown under EVERBRIGHT UNIFORM — please confirm the division."
+    ],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
     ]
   },
   {
@@ -4705,7 +6583,8 @@
     "sourceLabel": "SERIAL NO 1 | BLACK & RED CHEF COAT SET",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "chef-coat-sets-02-red-black",
@@ -4752,7 +6631,8 @@
     "sourceLabel": "SERIAL NO 2 | RED & BLACK CHEF COAT SET",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "chef-coat-sets-03-maroon-and-black",
@@ -4799,7 +6679,8 @@
     "sourceLabel": "SERIAL NO 3 | MAROON AND BLACK CHEF COAT SET",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "chef-coat-sets-04-white-and-black",
@@ -4846,7 +6727,8 @@
     "sourceLabel": "SERIAL NO 4 | WHITE AND BLACK CHEF COAT SET",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "chef-coat-sets-05-white-and-red",
@@ -4893,7 +6775,8 @@
     "sourceLabel": "SERIAL NO 5 | WHITE AND RED CHEF COAT SET",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "cafe-aprons-01-green",
@@ -4940,7 +6823,8 @@
     "sourceLabel": "CAFE APRON'S No 01 | GREEN",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "cafe-aprons-02-navy-blue",
@@ -4987,7 +6871,8 @@
     "sourceLabel": "CAFE APRON'S No 02 | NAVY BLUE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "cafe-aprons-03-coffee",
@@ -5034,7 +6919,8 @@
     "sourceLabel": "CAFE APRON'S No 03 | COFFEE",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "cafe-aprons-04-maroon",
@@ -5081,7 +6967,8 @@
     "sourceLabel": "CAFE APRON'S No 04 | MAROON",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "cafe-aprons-05-pink",
@@ -5128,7 +7015,8 @@
     "sourceLabel": "CAFE APRON'S No 05 | PINK",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "multi-purpose-aprons-01-cyan",
@@ -5188,7 +7076,8 @@
     "sourceLabel": "Cyan Color Multi Purpose Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "multi-purpose-aprons-02-apollo-blue",
@@ -5249,7 +7138,8 @@
     "sourceLabel": "Appolo Blue Multi Purpose Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "multi-purpose-aprons-03-burgundy",
@@ -5310,7 +7200,8 @@
     "sourceLabel": "Burgundy Multi Purpose Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "multi-purpose-aprons-04-khaki",
@@ -5371,7 +7262,8 @@
     "sourceLabel": "Khaki Multi Purpose Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "multi-purpose-aprons-05-beige",
@@ -5432,7 +7324,8 @@
     "sourceLabel": "Beige Multi Purpose Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-i-01-brown-with-dark-blue",
@@ -5479,7 +7372,8 @@
     "sourceLabel": "No. 01 | Brown with Dark Blue Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-i-02-burgundy-with-dark-blue",
@@ -5526,7 +7420,8 @@
     "sourceLabel": "No. 02 | Burgundy with Dark Blue Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-i-03-brown-with-beige",
@@ -5573,7 +7468,8 @@
     "sourceLabel": "No. 03 | Brown with Beige Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-i-04-beige-with-brown",
@@ -5620,7 +7516,8 @@
     "sourceLabel": "No. 04 | Beige with Brown Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-i-05-brown-with-beige",
@@ -5667,7 +7564,8 @@
     "sourceLabel": "No. 05 | Brown with Beige Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-i-06-beige-with-brown",
@@ -5714,7 +7612,8 @@
     "sourceLabel": "No. 06 | Beige with Brown Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-ii-01-jet-black",
@@ -5745,7 +7644,8 @@
     "sourceLabel": "No. 01 | Jet Black Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-ii-02-black-with-red",
@@ -5776,7 +7676,8 @@
     "sourceLabel": "No. 02 | Black with Red Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-ii-03-red-with-black",
@@ -5807,7 +7708,8 @@
     "sourceLabel": "No. 03 | Red with Black Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-ii-04-maroon-with-red",
@@ -5838,7 +7740,8 @@
     "sourceLabel": "No. 04 | Maroon with Red Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-ii-05-coffee-with-red",
@@ -5869,7 +7772,8 @@
     "sourceLabel": "No. 05 | Coffee with Red Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-ii-06-coffee-with-beige",
@@ -5900,7 +7804,8 @@
     "sourceLabel": "No. 06 | Coffee with Beige Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-ii-07-navy-blue-with-red",
@@ -5931,7 +7836,8 @@
     "sourceLabel": "No. 07 | Navy Blue with Red Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "kitchen-aprons-series-ii-08-navy-blue-with-cyan",
@@ -5962,7 +7868,8 @@
     "sourceLabel": "No. 08 | Navy Blue with Cyan Kitchen Apron",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waterproof-aprons-wpa-01-maroon-with-black-dots",
@@ -5995,7 +7902,8 @@
     "sourceLabel": "WPA-01 | Water Proof Apron (Maroon with Black Dots)",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waterproof-aprons-wpa-02-jet-black",
@@ -6028,7 +7936,8 @@
     "sourceLabel": "WPA-02 | Water Proof Apron (Jet Black)",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waterproof-aprons-wpa-03-golden",
@@ -6061,7 +7970,8 @@
     "sourceLabel": "WPA-03 | Water Proof Apron (Golden)",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "regular-shirts-01-shemray",
@@ -6099,7 +8009,14 @@
         "alt": "Shemray Shirt No. 01 — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS REGULAR SHIRT'S.pdf",
     "sourcePage": [
@@ -6108,7 +8025,20 @@
     "sourceLabel": "REGULAR SHIRT NO. 01 | SHEMRAY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "regular-shirts-02-fila-fil",
@@ -6146,7 +8076,14 @@
         "alt": "Fila-Fil Shirt No. 02 — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS REGULAR SHIRT'S.pdf",
     "sourcePage": [
@@ -6155,7 +8092,20 @@
     "sourceLabel": "REGULAR SHIRT NO. 02 | FILA-FIL SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "regular-shirts-03-white",
@@ -6193,7 +8143,14 @@
         "alt": "White Shirt No. 03 — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS REGULAR SHIRT'S.pdf",
     "sourcePage": [
@@ -6202,7 +8159,20 @@
     "sourceLabel": "REGULAR SHIRT NO. 03 | WHITE SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "regular-shirts-04-off-white",
@@ -6240,7 +8210,14 @@
         "alt": "Off-White Shirt No. 04 — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS REGULAR SHIRT'S.pdf",
     "sourcePage": [
@@ -6249,7 +8226,20 @@
     "sourceLabel": "REGULAR SHIRT NO. 04 | OFF-WHITE SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "regular-shirts-05-purple",
@@ -6287,7 +8277,14 @@
         "alt": "Purple Shirt No. 05 — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS REGULAR SHIRT'S.pdf",
     "sourcePage": [
@@ -6296,7 +8293,20 @@
     "sourceLabel": "REGULAR SHIRT NO. 05 | PURPLE SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "regular-shirts-06-shemray",
@@ -6334,7 +8344,14 @@
         "alt": "Shemray Shirt No. 06 — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS REGULAR SHIRT'S.pdf",
     "sourcePage": [
@@ -6343,7 +8360,20 @@
     "sourceLabel": "REGULAR SHIRT NO. 06 | SHEMRAY SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "regular-shirts-07-fila-fil",
@@ -6381,7 +8411,14 @@
         "alt": "Fila-Fil Shirt No. 07 — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS REGULAR SHIRT'S.pdf",
     "sourcePage": [
@@ -6390,7 +8427,20 @@
     "sourceLabel": "REGULAR SHIRT NO. 07 | FILA-FIL SHIRT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      }
+    ]
   },
   {
     "id": "safari-suits-01-dark-blue",
@@ -6428,7 +8478,21 @@
         "alt": "Dark Blue Safari Suit — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS SAFARI SUIT'S.pdf",
     "sourcePage": [
@@ -6437,7 +8501,32 @@
     "sourceLabel": "DARK BLUE SAFARI SUIT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "safari-suits-02-jet-black",
@@ -6475,7 +8564,21 @@
         "alt": "Jet Black Safari Suit — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS SAFARI SUIT'S.pdf",
     "sourcePage": [
@@ -6484,7 +8587,32 @@
     "sourceLabel": "JET BLACK SAFARI SUIT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "safari-suits-03-charcoal-grey",
@@ -6522,7 +8650,21 @@
         "alt": "Charcoal Grey Safari Suit — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS SAFARI SUIT'S.pdf",
     "sourcePage": [
@@ -6531,7 +8673,32 @@
     "sourceLabel": "CHARCOAL GREY SAFARI SUIT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "safari-suits-04-navy-blue",
@@ -6569,7 +8736,21 @@
         "alt": "Navy Blue Safari Suit — front and back views"
       }
     ],
-    "availableSizes": [],
+    "availableSizes": [
+      "Shirt 36",
+      "Shirt 38",
+      "Shirt 40",
+      "Shirt 42",
+      "Shirt 44",
+      "Shirt 46",
+      "Pant 28",
+      "Pant 30",
+      "Pant 32",
+      "Pant 34",
+      "Pant 36",
+      "Pant 38",
+      "Pant 40"
+    ],
     "availableColours": [],
     "sourcePdf": "EVERBRIGHT UNIFORMS SAFARI SUIT'S.pdf",
     "sourcePage": [
@@ -6578,7 +8759,32 @@
     "sourceLabel": "NAVY BLUE SAFARI SUIT",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": [
+      {
+        "label": "Shirt",
+        "sizes": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "label": "Pant",
+        "sizes": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40"
+        ]
+      }
+    ]
   },
   {
     "id": "waistcoats-01-jet-black",
@@ -6625,7 +8831,8 @@
     "sourceLabel": "Jet Black Wase Coat",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waistcoats-02-dark-blue",
@@ -6672,7 +8879,8 @@
     "sourceLabel": "Dark Blue Wase Coat",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waistcoats-03-maroon",
@@ -6719,7 +8927,8 @@
     "sourceLabel": "Maroon Wase Coat",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waistcoats-04-beige",
@@ -6766,7 +8975,8 @@
     "sourceLabel": "Beige Wase Coat",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waistcoats-05-coffee",
@@ -6813,7 +9023,8 @@
     "sourceLabel": "Coffe Colour Wase Coat",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waistcoats-06-maroon-black-stripe",
@@ -6860,7 +9071,8 @@
     "sourceLabel": "Maroon Black Stripe Wase Coat",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   },
   {
     "id": "waistcoats-07-dark-blue-stripe",
@@ -6909,6 +9121,7 @@
     "sourceLabel": "Dark Blue Wase Coat with Strips (Reversible - Same Design on Both Sides)",
     "nameSource": "catalogue-label",
     "reviewRequired": false,
-    "reviewNotes": []
+    "reviewNotes": [],
+    "sizeGroups": []
   }
 ]

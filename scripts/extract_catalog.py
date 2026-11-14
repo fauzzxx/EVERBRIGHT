@@ -569,6 +569,8 @@ def main():
         sheet.save(os.path.join(cs_dir, slug(file[:-4]) + ".jpg"), quality=82)
 
     print(f"products={len(products)} images={len(manifest)}")
+    from apply_sizes import main as apply_sizes  # shirt / pant size ranges
+    apply_sizes()
     for s in stats:
         print(f"  {s['pdf']}: pages={s['pages']} products={s['products']} images={s['images']}")
 

@@ -5,11 +5,14 @@ import type { CatalogSource } from './types';
 /** Catalogue served from the generated local JSON manifest (loaded as its own chunk). */
 export const localCatalog: CatalogSource = {
   async load() {
-    const { default: products } = await import('../../data/products.json');
+    const [{ default: products }, { default: bags }] = await Promise.all([
+      import('../../data/products.json'),
+      import('../../data/bags.json'),
+    ]);
     return {
       divisions,
       categories,
-      products: products as Product[],
+      products: [...(products as Product[]), ...(bags as Product[])],
     };
   },
 };

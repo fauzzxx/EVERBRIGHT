@@ -2,8 +2,10 @@ import { MessageCircle } from 'lucide-react';
 import { useCatalog } from '../../context/CatalogContext';
 import { generalEnquiryMessage, whatsappUrl } from '../../lib/enquiry';
 import { Reveal } from '../animations/Reveal';
+import { DivisionGallery } from '../products/DivisionGallery';
 import { DivisionCatalogue } from '../products/DivisionCatalogue';
 import { DivisionSection } from './DivisionSection';
+import { FireLayersBand } from './FireLayersBand';
 
 /**
  * EVERBRIGHT FIRE AND SAFETY. No catalogue has been supplied yet, so the
@@ -72,7 +74,15 @@ export function ProtectiveBagsSection() {
 
   return (
     <DivisionSection divisionId="bags" tone="midnight">
-      {hasProducts ? <DivisionCatalogue division={division} tone="dark" /> : <FireSafetyEmptyState />}
+      {hasProducts ? (
+        <>
+          <FireLayersBand />
+          <DivisionCatalogue division={division} tone="dark" />
+          <DivisionGallery divisionId="bags" tone="dark" />
+        </>
+      ) : (
+        <FireSafetyEmptyState />
+      )}
     </DivisionSection>
   );
 }

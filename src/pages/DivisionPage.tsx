@@ -4,7 +4,9 @@ import { Link } from 'react-router';
 import { Reveal } from '../components/animations/Reveal';
 import { TextileBackground, type TextileController } from '../components/animations/TextileBackground';
 import { TextReveal } from '../components/animations/TextReveal';
+import { DivisionGallery } from '../components/products/DivisionGallery';
 import { DivisionCatalogue } from '../components/products/DivisionCatalogue';
+import { FireLayersBand } from '../components/sections/FireLayersBand';
 import { FireSafetyEmptyState } from '../components/sections/ProtectiveBagsSection';
 import { contact, telHref } from '../config/contact';
 import { useCatalog } from '../context/CatalogContext';
@@ -103,7 +105,9 @@ export function DivisionPage({ divisionId }: { divisionId: DivisionId }) {
       {/* Catalogue */}
       <section id="catalogue" data-nav={tone.nav} className={tone.section}>
         <div className="gutter pt-[clamp(4rem,8vw,7rem)] pb-[clamp(5rem,9vw,8rem)]">
+          {count > 0 && divisionId === 'bags' && <FireLayersBand />}
           {count > 0 ? <DivisionCatalogue division={division} tone={tone.catalogue} /> : <FireSafetyEmptyState />}
+          {divisionId === 'bags' && <DivisionGallery divisionId="bags" tone="dark" />}
         </div>
       </section>
 

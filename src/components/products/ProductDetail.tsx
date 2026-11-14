@@ -5,6 +5,7 @@ import { contact, telHref } from '../../config/contact';
 import { mapsUrl, productEnquiryMessage, productReference, whatsappUrl } from '../../lib/enquiry';
 import type { Product } from '../../types/catalog';
 import { ProductGallery } from './ProductGallery';
+import { Construction } from './Construction';
 
 interface Props {
   product: Product;
@@ -88,15 +89,23 @@ export const ProductDetail = forwardRef<HTMLDivElement, Props>(function ProductD
 
           <dl className="mt-9 border-b border-midnight/10">
             <Row label="Category">{catLabel}</Row>
+            {product.modelNo && <Row label="Model no.">{product.modelNo}</Row>}
+            {product.dimensions && <Row label="Dimensions">{product.dimensions}</Row>}
             {product.colourway && <Row label="Colourway">{product.colourway}</Row>}
-            <Row label="Sizes">
-              {product.availableSizes.length ? product.availableSizes.join(', ') : 'Not listed in the catalogue — ask us for the size range.'}
-            </Row>
-            <Row label="Colours">
-              {product.availableColours.length
-                ? product.availableColours.join(', ')
-                : 'Shown as pictured. Ask us about other colour options.'}
-            </Row>
+            {!product.layers && (
+              <>
+                <Row label="Sizes">
+                  {product.availableSizes.length
+                    ? product.availableSizes.join(', ')
+                    : 'Not listed in the catalogue — ask us for the size range.'}
+                </Row>
+                <Row label="Colours">
+                  {product.availableColours.length
+                    ? product.availableColours.join(', ')
+                    : 'Shown as pictured. Ask us about other colour options.'}
+                </Row>
+              </>
+            )}
             {product.features.length > 0 && (
               <Row label="Details">
                 <ul className="space-y-1">
@@ -108,6 +117,8 @@ export const ProductDetail = forwardRef<HTMLDivElement, Props>(function ProductD
             )}
             <Row label="Views">{product.images.map((i) => i.caption).join(' · ')}</Row>
           </dl>
+
+          {product.layers && product.layers.length > 0 && <Construction layers={product.layers} />}
 
           <div className="mt-9 grid gap-3 sm:grid-cols-2">
             {wa ? (

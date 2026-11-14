@@ -21,7 +21,7 @@ export function ProductOverlay() {
   const state = location.state as OverlayState;
   const product = getProduct(productId);
   const { stop, start } = useSmoothScroll();
-  const [imageIndex, setImageIndex] = useState(0);
+  const [imageIndex, setImageIndex] = useState(() => (location.state as { image?: number } | null)?.image ?? 0);
   const rootRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const stageRef = useRef<HTMLDivElement>(null);
@@ -76,7 +76,7 @@ export function ProductOverlay() {
 
   // Product switch inside the overlay (previous / next).
   useLayoutEffect(() => {
-    setImageIndex(0);
+    if (productId !== firstId.current) setImageIndex(0);
     if (productId === firstId.current || prefersReducedMotion() || !rootRef.current) return;
     gsap.fromTo(
       rootRef.current.querySelectorAll('.detail-copy > *, .detail-media'),

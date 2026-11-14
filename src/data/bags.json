@@ -1,0 +1,708 @@
+[
+  {
+    "id": "fire-laptop-bag-carbon-fiber",
+    "name": "Carbon Fiber Laptop Top Bag",
+    "division": "bags",
+    "category": "fire-laptop-bags",
+    "catalogueNo": null,
+    "series": null,
+    "colourway": "Black",
+    "description": "A slim, hard-shell laptop bag with a carbon-fiber finish, combination code lock and fireproof zipper. Inside, a 14-section expandable document organizer (A–N), mesh pockets and card and ID slots keep a laptop, files and essentials in order.",
+    "features": [
+      "Combination code lock",
+      "Fireproof zipper",
+      "Carbon-fiber finish",
+      "Water resistant",
+      "14 expandable document sections (A–N)",
+      "Card & ID slots, mesh pockets",
+      "Laptop & document compartment"
+    ],
+    "images": [
+      {
+        "src": "/catalog/bags/fire-laptop-bags/fire-laptop-bag-carbon-fiber/fire-laptop-bag-carbon-fiber-01.webp",
+        "view": "main",
+        "caption": "Product view",
+        "width": 1400,
+        "height": 1050,
+        "alt": "Carbon Fiber Laptop Top Bag — product view"
+      },
+      {
+        "src": "/catalog/bags/fire-laptop-bags/fire-laptop-bag-carbon-fiber/fire-laptop-bag-carbon-fiber-02.webp",
+        "view": "front-back",
+        "caption": "Front and back views",
+        "width": 1199,
+        "height": 1312,
+        "alt": "Carbon Fiber Laptop Top Bag — front and back views"
+      },
+      {
+        "src": "/catalog/bags/fire-laptop-bags/fire-laptop-bag-carbon-fiber/fire-laptop-bag-carbon-fiber-03.webp",
+        "view": "detail",
+        "caption": "Key features",
+        "width": 1400,
+        "height": 933,
+        "alt": "Carbon Fiber Laptop Top Bag — key features"
+      },
+      {
+        "src": "/catalog/bags/fire-laptop-bags/fire-laptop-bag-carbon-fiber/fire-laptop-bag-carbon-fiber-04.webp",
+        "view": "detail",
+        "caption": "Features & dimensions",
+        "width": 1400,
+        "height": 1050,
+        "alt": "Carbon Fiber Laptop Top Bag — features & dimensions"
+      },
+      {
+        "src": "/catalog/bags/fire-laptop-bags/fire-laptop-bag-carbon-fiber/fire-laptop-bag-carbon-fiber-05.webp",
+        "view": "detail",
+        "caption": "Document organizer",
+        "width": 1400,
+        "height": 933,
+        "alt": "Carbon Fiber Laptop Top Bag — document organizer"
+      },
+      {
+        "src": "/catalog/bags/fire-laptop-bags/fire-laptop-bag-carbon-fiber/fire-laptop-bag-carbon-fiber-06.webp",
+        "view": "detail",
+        "caption": "Card & ID organizer",
+        "width": 1400,
+        "height": 934,
+        "alt": "Carbon Fiber Laptop Top Bag — card & id organizer"
+      }
+    ],
+    "availableSizes": [],
+    "availableColours": [],
+    "sourcePdf": "EVERBRIGHT Material Specifications.pdf",
+    "sourcePage": [
+      1
+    ],
+    "sourceLabel": "EVA Laptop Bag (08.03.0670)",
+    "nameSource": "product-photo",
+    "reviewRequired": true,
+    "reviewNotes": [
+      "Specification matched by product type to 'EVA Laptop Bag' (08.03.0670); please confirm."
+    ],
+    "modelNo": "08.03.0670",
+    "dimensions": "38.5 × 28.7 × 7.5 cm (W × H × D)",
+    "layers": [
+      {
+        "name": "Outer fabric",
+        "material": "0.5 mm single-sided black dustproof silicone fiberglass cloth",
+        "points": [
+          "Fire retardant — no open-flame propagation",
+          "Smooth dustproof surface, easy to clean",
+          "Wear and scratch resistant",
+          "Uniform thickness (tolerance ≤ ±0.05 mm)"
+        ],
+        "standards": [
+          "UL94 V0",
+          "RoHS IEC 62321",
+          "CE",
+          "REACH",
+          "PFAS Test",
+          "Prop 65 Test",
+          "Glowing Wire Test",
+          "Explosion-proof Test"
+        ]
+      },
+      {
+        "name": "Middle layer",
+        "material": "EVA foam",
+        "points": [
+          "Cushions and absorbs impact from knocks and drops (e.g. 1.2 m)",
+          "Foam pores slow heat transfer and add temperature insulation"
+        ],
+        "standards": []
+      },
+      {
+        "name": "Zipper",
+        "material": "Fire-retardant metal zipper",
+        "points": [
+          "Removes the weak point at the opening, so the bag stays fire-resistant without gaps",
+          "Built for frequent daily opening and closing"
+        ],
+        "standards": [
+          "UL94 V0",
+          "RoHS"
+        ]
+      }
+    ],
+    "sourcePhotos": [
+      "3.jpeg",
+      "2.jpeg",
+      "WhatsApp Image 2026-11-14 at 4.05.19 PM.jpeg",
+      "5.jpeg",
+      "4.jpeg",
+      "6.jpeg"
+    ]
+  },
+  {
+    "id": "fire-security-bag-shoulder-strap",
+    "name": "Multipurpose Security Bag — Shoulder Strap",
+    "division": "bags",
+    "category": "fire-security-bags",
+    "catalogueNo": null,
+    "series": null,
+    "colourway": "Black",
+    "description": "Carry cash, mobile phones, jewellery, documents and cards safely. A code lock, carry handle and padded, adjustable shoulder strap; inside, card slots, mesh pockets and a zipped mesh pocket around a spacious main compartment.",
+    "features": [
+      "Code lock",
+      "Carry handle + adjustable shoulder strap",
+      "Padded shoulder support",
+      "8 card slots",
+      "3 mesh pockets",
+      "Zipped mesh pocket",
+      "Spacious main compartment"
+    ],
+    "images": [
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-security-bag-shoulder-strap/fire-security-bag-shoulder-strap-01.webp",
+        "view": "main",
+        "caption": "Product view",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Multipurpose Security Bag — Shoulder Strap — product view"
+      },
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-security-bag-shoulder-strap/fire-security-bag-shoulder-strap-02.webp",
+        "view": "front-back",
+        "caption": "Front and back views",
+        "width": 1400,
+        "height": 700,
+        "alt": "Multipurpose Security Bag — Shoulder Strap — front and back views"
+      },
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-security-bag-shoulder-strap/fire-security-bag-shoulder-strap-03.webp",
+        "view": "detail",
+        "caption": "Features & dimensions",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Multipurpose Security Bag — Shoulder Strap — features & dimensions"
+      },
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-security-bag-shoulder-strap/fire-security-bag-shoulder-strap-04.webp",
+        "view": "detail",
+        "caption": "Features overview",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Multipurpose Security Bag — Shoulder Strap — features overview"
+      },
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-security-bag-shoulder-strap/fire-security-bag-shoulder-strap-05.webp",
+        "view": "detail",
+        "caption": "Interior & details",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Multipurpose Security Bag — Shoulder Strap — interior & details"
+      }
+    ],
+    "availableSizes": [],
+    "availableColours": [],
+    "sourcePdf": "EVERBRIGHT Material Specifications.pdf",
+    "sourcePage": [
+      2
+    ],
+    "sourceLabel": "Fireproof document bag (shoulder strap version) (08.05.0223)",
+    "nameSource": "product-photo",
+    "reviewRequired": true,
+    "reviewNotes": [
+      "Specification matched by product type to 'Fireproof document bag (shoulder strap version)' (08.05.0223); please confirm."
+    ],
+    "modelNo": "08.05.0223",
+    "dimensions": "36 × 27 × 10 cm",
+    "layers": [
+      {
+        "name": "Outer layer",
+        "material": "Liquid silicone fiberglass cloth (silicone coating + fiberglass base)",
+        "points": [
+          "Fire retardant, waterproof and moisture-proof",
+          "Wear and scratch resistant",
+          "Flexible and conforming — avoids scratching what is inside"
+        ],
+        "standards": [
+          "UL94 5VA",
+          "RoHS IEC 62321",
+          "CE",
+          "REACH",
+          "PFAS Test",
+          "Prop 65 Test",
+          "Glowing Wire Test"
+        ]
+      },
+      {
+        "name": "Middle spacer",
+        "material": "PP board",
+        "points": [
+          "Lightweight and high-strength",
+          "Compression and impact resistant",
+          "Gives the bag its structure and keeps its shape"
+        ],
+        "standards": [
+          "GB/T 1041-2008 (compression)"
+        ]
+      },
+      {
+        "name": "Fire-retardant zipper",
+        "material": "Flame-retardant fabric tape",
+        "points": [
+          "Removes the weak point at the opening, so the bag stays fire-resistant without gaps",
+          "Built for frequent daily opening and closing"
+        ],
+        "standards": [
+          "UL94 V0",
+          "RoHS"
+        ]
+      }
+    ],
+    "sourcePhotos": [
+      "8.jpeg",
+      "7.jpeg",
+      "9.jpeg",
+      "10.jpeg",
+      "11.jpeg"
+    ]
+  },
+  {
+    "id": "fire-safety-case",
+    "name": "Fire & Waterproof Safety Case",
+    "division": "bags",
+    "category": "fire-security-bags",
+    "catalogueNo": null,
+    "series": null,
+    "colourway": "Black",
+    "description": "Protects valuables from fire, water and heat. Built-in code lock and fireproof zipper; a lid organizer with a large document pocket, mesh pockets and 16 card slots, plus cash pockets and a spacious main storage compartment.",
+    "features": [
+      "Built-in code lock",
+      "Fireproof zipper",
+      "Fireproof stitching thread",
+      "Extra reinforced stitching",
+      "Large document pocket",
+      "16 card slots",
+      "Cash & essentials pockets",
+      "Strong carry handle"
+    ],
+    "images": [
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-safety-case/fire-safety-case-01.webp",
+        "view": "main",
+        "caption": "Product view",
+        "width": 740,
+        "height": 595,
+        "alt": "Fire & Waterproof Safety Case — product view"
+      },
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-safety-case/fire-safety-case-02.webp",
+        "view": "detail",
+        "caption": "Fireproof & waterproof",
+        "width": 612,
+        "height": 422,
+        "alt": "Fire & Waterproof Safety Case — fireproof & waterproof"
+      },
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-safety-case/fire-safety-case-03.webp",
+        "view": "detail",
+        "caption": "Features & product views",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fire & Waterproof Safety Case — features & product views"
+      },
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-safety-case/fire-safety-case-04.webp",
+        "view": "detail",
+        "caption": "Interior organizer",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fire & Waterproof Safety Case — interior organizer"
+      },
+      {
+        "src": "/catalog/bags/fire-security-bags/fire-safety-case/fire-safety-case-05.webp",
+        "view": "detail",
+        "caption": "Details & dimensions",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fire & Waterproof Safety Case — details & dimensions"
+      }
+    ],
+    "availableSizes": [],
+    "availableColours": [],
+    "sourcePdf": "EVERBRIGHT Material Specifications.pdf",
+    "sourcePage": [
+      3,
+      4
+    ],
+    "sourceLabel": "Hardware Safe Case (08.05.0224)",
+    "nameSource": "product-photo",
+    "reviewRequired": true,
+    "reviewNotes": [
+      "Specification matched by product type to 'Hardware Safe Case' (08.05.0224); please confirm."
+    ],
+    "modelNo": "08.05.0224",
+    "dimensions": "39 × 30 × 14 cm (L × H × D)",
+    "layers": [
+      {
+        "name": "Outer layer",
+        "material": "0.5 mm single-sided black liquid silicone fiberglass cloth",
+        "points": [
+          "Excellent fire resistance and flame retardancy",
+          "Tough, wear-resistant, anti-ageing surface",
+          "Waterproof and moisture-proof",
+          "Holds its shape — resists deformation"
+        ],
+        "standards": [
+          "UL94 V0",
+          "RoHS IEC 62321",
+          "CE",
+          "REACH",
+          "PFAS Test",
+          "Prop 65 Test",
+          "Glowing Wire Test",
+          "IPX5"
+        ]
+      },
+      {
+        "name": "Middle layer",
+        "material": "15 mm flame-retardant fiberglass insulation",
+        "points": [
+          "Blocks high and low outside temperatures",
+          "Light, soft and elastic — cushions impacts"
+        ],
+        "standards": [
+          "GB/T 10294-2008 (thermal)",
+          "UL94 V0 and above"
+        ]
+      },
+      {
+        "name": "Inner layer",
+        "material": "Aluminium foil fiberglass cloth (hot-pressed composite)",
+        "points": [
+          "Long-term operating temperature range −40 °C to 250 °C",
+          "Thermal insulation that keeps internal temperature stable",
+          "Aluminium layer isolates moisture and resists mildew",
+          "Electromagnetic shielding",
+          "Combines flexibility and rigidity to resist compression"
+        ],
+        "standards": [
+          "UL94 5VA",
+          "RoHS IEC 62321",
+          "CE",
+          "REACH",
+          "PFAS Test",
+          "Prop 65 Test",
+          "Glowing Wire Test",
+          "Explosion-proof Test"
+        ]
+      },
+      {
+        "name": "Fire-retardant zipper",
+        "material": "Flame-retardant fabric tape",
+        "points": [
+          "Removes the weak point at the opening, so the bag stays fire-resistant without gaps",
+          "Built for frequent daily opening and closing"
+        ],
+        "standards": [
+          "UL94 V0",
+          "RoHS"
+        ]
+      }
+    ],
+    "sourcePhotos": [
+      "16.jpeg",
+      "13.jpeg",
+      "14.jpeg",
+      "15.jpeg",
+      "12.jpeg"
+    ]
+  },
+  {
+    "id": "fire-document-bag-vertical",
+    "name": "Fire-Resistant Document Bag",
+    "division": "bags",
+    "category": "fire-document-bags",
+    "catalogueNo": null,
+    "series": null,
+    "colourway": "Black",
+    "description": "Secure storage for your most important documents — bonds, registrations, property papers and certificates. Fire-resistant zipper and edging, a silver heat-resistant inner lining and a carry handle, in a slim, lightweight envelope.",
+    "features": [
+      "Fire-resistant zipper",
+      "Fire-resistant edging",
+      "Silver heat-resistant inner lining",
+      "Carry handle",
+      "Lightweight & portable"
+    ],
+    "images": [
+      {
+        "src": "/catalog/bags/fire-document-bags/fire-document-bag-vertical/fire-document-bag-vertical-01.webp",
+        "view": "main",
+        "caption": "Product view",
+        "width": 1050,
+        "height": 1400,
+        "alt": "Fire-Resistant Document Bag — product view"
+      },
+      {
+        "src": "/catalog/bags/fire-document-bags/fire-document-bag-vertical/fire-document-bag-vertical-02.webp",
+        "view": "main",
+        "caption": "With handle",
+        "width": 1050,
+        "height": 1400,
+        "alt": "Fire-Resistant Document Bag — with handle"
+      },
+      {
+        "src": "/catalog/bags/fire-document-bags/fire-document-bag-vertical/fire-document-bag-vertical-03.webp",
+        "view": "detail",
+        "caption": "Features & dimensions",
+        "width": 1050,
+        "height": 1400,
+        "alt": "Fire-Resistant Document Bag — features & dimensions"
+      },
+      {
+        "src": "/catalog/bags/fire-document-bags/fire-document-bag-vertical/fire-document-bag-vertical-04.webp",
+        "view": "detail",
+        "caption": "For important documents",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fire-Resistant Document Bag — for important documents"
+      },
+      {
+        "src": "/catalog/bags/fire-document-bags/fire-document-bag-vertical/fire-document-bag-vertical-05.webp",
+        "view": "detail",
+        "caption": "Inner lining",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fire-Resistant Document Bag — inner lining"
+      }
+    ],
+    "availableSizes": [],
+    "availableColours": [],
+    "sourcePdf": "EVERBRIGHT Material Specifications.pdf",
+    "sourcePage": [
+      5
+    ],
+    "sourceLabel": "Fireproof vertical document bag (08.03.0671)",
+    "nameSource": "product-photo",
+    "reviewRequired": true,
+    "reviewNotes": [
+      "Specification matched by product type to 'Fireproof vertical document bag' (08.03.0671); please confirm."
+    ],
+    "modelNo": "08.03.0671",
+    "dimensions": "38 × 20.5 × 6.5 cm (W × H × D)",
+    "layers": [
+      {
+        "name": "Outer layer",
+        "material": "Liquid silicone fiberglass cloth (silicone coating + fiberglass base)",
+        "points": [
+          "Long-term operating range −40 °C to 200 °C; instantaneous up to 800 °C",
+          "Delays the spread of fire",
+          "Waterproof and dustproof (IPX5)",
+          "Abrasion and tear resistant",
+          "Resistant to acid, alkali and oil"
+        ],
+        "standards": [
+          "UL94 V-0",
+          "RoHS IEC 62321",
+          "CE",
+          "REACH",
+          "PFAS Test",
+          "Prop 65 Test",
+          "Glowing Wire Test"
+        ]
+      },
+      {
+        "name": "Inner layer",
+        "material": "Aluminium foil fiberglass cloth (hot-pressed composite)",
+        "points": [
+          "Long-term operating temperature range −40 °C to 250 °C",
+          "Thermal insulation that keeps internal temperature stable",
+          "Aluminium layer isolates moisture and resists mildew",
+          "Electromagnetic shielding",
+          "Combines flexibility and rigidity to resist compression"
+        ],
+        "standards": [
+          "UL94 5VA",
+          "RoHS IEC 62321",
+          "CE",
+          "REACH",
+          "PFAS Test",
+          "Prop 65 Test",
+          "Glowing Wire Test",
+          "Explosion-proof Test"
+        ]
+      },
+      {
+        "name": "Fire-retardant zipper",
+        "material": "Flame-retardant fabric tape",
+        "points": [
+          "Removes the weak point at the opening, so the bag stays fire-resistant without gaps",
+          "Built for frequent daily opening and closing"
+        ],
+        "standards": [
+          "UL94 V0",
+          "RoHS"
+        ]
+      }
+    ],
+    "sourcePhotos": [
+      "19.jpeg",
+      "17.jpeg",
+      "20.jpeg",
+      "18.jpeg",
+      "21.jpeg"
+    ]
+  },
+  {
+    "id": "fire-battery-box",
+    "name": "Fireproof Battery Box",
+    "division": "bags",
+    "category": "fire-boxes",
+    "catalogueNo": null,
+    "series": null,
+    "colourway": "Black",
+    "description": "A rigid fireproof box for batteries and flammable equipment such as lithium-ion batteries, battery packs, power tools and drones. Combination code lock, fireproof zipper, reflective tape, adjustable carry strap, side pockets, a name-card holder and anti-slip feet.",
+    "features": [
+      "Combination code lock",
+      "Fireproof zipper",
+      "Fireproof heat-resistant lining",
+      "Two side pockets",
+      "Zippered mesh pocket inside lid",
+      "Reflective (radium) tape",
+      "Adjustable carrying handle",
+      "Anti-slip feet"
+    ],
+    "images": [
+      {
+        "src": "/catalog/bags/fire-boxes/fire-battery-box/fire-battery-box-01.webp",
+        "view": "main",
+        "caption": "Product view",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fireproof Battery Box — product view"
+      },
+      {
+        "src": "/catalog/bags/fire-boxes/fire-battery-box/fire-battery-box-02.webp",
+        "view": "detail",
+        "caption": "Interior",
+        "width": 1312,
+        "height": 1199,
+        "alt": "Fireproof Battery Box — interior"
+      },
+      {
+        "src": "/catalog/bags/fire-boxes/fire-battery-box/fire-battery-box-03.webp",
+        "view": "detail",
+        "caption": "Features & dimensions",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fireproof Battery Box — features & dimensions"
+      },
+      {
+        "src": "/catalog/bags/fire-boxes/fire-battery-box/fire-battery-box-04.webp",
+        "view": "detail",
+        "caption": "Multiple views",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fireproof Battery Box — multiple views"
+      },
+      {
+        "src": "/catalog/bags/fire-boxes/fire-battery-box/fire-battery-box-05.webp",
+        "view": "detail",
+        "caption": "Back & bottom",
+        "width": 1400,
+        "height": 933,
+        "alt": "Fireproof Battery Box — back & bottom"
+      }
+    ],
+    "availableSizes": [],
+    "availableColours": [],
+    "sourcePdf": "EVERBRIGHT Material Specifications.pdf",
+    "sourcePage": [
+      6,
+      7
+    ],
+    "sourceLabel": "Fireproof Document Box (08.06.0169)",
+    "nameSource": "product-photo",
+    "reviewRequired": true,
+    "reviewNotes": [
+      "Specification matched by product type to 'Fireproof Document Box' (08.06.0169); please confirm."
+    ],
+    "modelNo": "08.06.0169",
+    "dimensions": "39.5 × 31 × 25.5 cm (L × H × D)",
+    "layers": [
+      {
+        "name": "Outer layer",
+        "material": "0.5 mm single-sided black liquid silicone fiberglass cloth",
+        "points": [
+          "Excellent fire resistance and flame retardancy",
+          "Wear-resistant, anti-ageing surface",
+          "Waterproof and moisture-proof",
+          "Holds its shape — resists deformation"
+        ],
+        "standards": [
+          "UL94 V0",
+          "RoHS IEC 62321",
+          "CE",
+          "REACH",
+          "PFAS Test",
+          "Prop 65 Test",
+          "Glowing Wire Test"
+        ]
+      },
+      {
+        "name": "Middle layer 1",
+        "material": "4 mm honeycomb board (polypropylene honeycomb core)",
+        "points": [
+          "Lightweight yet strong",
+          "Stable pressure and impact resistance",
+          "Keeps the box rigid and spreads outside forces"
+        ],
+        "standards": []
+      },
+      {
+        "name": "Middle layer 2",
+        "material": "5 mm flame-retardant thermal insulation cotton (top and sides)",
+        "points": [
+          "Blocks high and low outside temperatures",
+          "Cushions and absorbs impacts"
+        ],
+        "standards": [
+          "GB/T 10294-2008 (thermal)",
+          "UL94 V0 and above"
+        ]
+      },
+      {
+        "name": "Inner layer",
+        "material": "Aluminium foil fiberglass cloth (hot-pressed composite)",
+        "points": [
+          "Long-term operating temperature range −40 °C to 250 °C",
+          "Thermal insulation that keeps internal temperature stable",
+          "Aluminium layer isolates moisture and resists mildew",
+          "Electromagnetic shielding",
+          "Combines flexibility and rigidity to resist compression"
+        ],
+        "standards": [
+          "UL94 5VA",
+          "RoHS IEC 62321",
+          "CE",
+          "REACH",
+          "PFAS Test",
+          "Prop 65 Test",
+          "Glowing Wire Test",
+          "Explosion-proof Test"
+        ]
+      },
+      {
+        "name": "Fire-retardant zipper",
+        "material": "Flame-retardant fabric tape",
+        "points": [
+          "Removes the weak point at the opening, so the bag stays fire-resistant without gaps",
+          "Built for frequent daily opening and closing"
+        ],
+        "standards": [
+          "UL94 V0",
+          "RoHS"
+        ]
+      }
+    ],
+    "sourcePhotos": [
+      "24.jpeg",
+      "23.jpeg",
+      "25.jpeg",
+      "26.jpeg",
+      "22.jpeg"
+    ]
+  }
+]

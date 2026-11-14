@@ -11,6 +11,13 @@ export interface ProductImage {
   height: number;
 }
 
+export interface SpecLayer {
+  name: string;
+  material: string;
+  points: string[];
+  standards: string[];
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -30,6 +37,10 @@ export interface Product {
   nameSource: string;
   reviewRequired: boolean;
   reviewNotes: string[];
+  /** Fire & safety products: manufacturer model number, size and layer-by-layer construction */
+  modelNo?: string;
+  dimensions?: string;
+  layers?: SpecLayer[];
 }
 
 export interface Category {

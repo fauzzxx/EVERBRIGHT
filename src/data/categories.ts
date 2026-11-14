@@ -52,9 +52,11 @@ export const divisions: Division[] = [
     anchor: 'bags',
     headline: 'PROTECT WHAT\nMATTERS MOST.',
     // EDITABLE
-    intro: 'Fire and safety products, including leather protective document bags made to keep important papers together.',
+    intro:
+      'Fire-resistant bags and boxes built in layers of silicone-coated fiberglass, insulation and aluminium-foil lining — for documents, laptops, valuables and batteries.',
     theme: 'dark',
-    featuredProductIds: [],
+    featuredProductIds: ['fire-safety-case', 'fire-document-bag-vertical', 'fire-battery-box'],
+    previewProductId: 'fire-laptop-bag-carbon-fiber',
   },
 ];
 
@@ -82,4 +84,9 @@ export const categories: Category[] = [
   { id: 'regular-shirts', division: 'uniform', label: 'Regular Shirts', group: 'Corporate' },
   { id: 'safari-suits', division: 'uniform', label: 'Safari Suits', group: 'Corporate' },
   { id: 'waistcoats', division: 'uniform', label: 'Waistcoats', group: 'Corporate' },
+  // Fire and Safety
+  { id: 'fire-document-bags', division: 'bags', label: 'Document Bags', group: 'Fire-Resistant Bags' },
+  { id: 'fire-security-bags', division: 'bags', label: 'Security Bags & Cases', group: 'Fire-Resistant Bags' },
+  { id: 'fire-laptop-bags', division: 'bags', label: 'Laptop Bags', group: 'Fire-Resistant Bags' },
+  { id: 'fire-boxes', division: 'bags', label: 'Fireproof Boxes', group: 'Fireproof Storage' },
 ];

@@ -203,6 +203,64 @@ PRODUCTS = [
 ]
 
 
+# Plain-language explanation shown with each photograph, written from the material
+# specification and from what the photo itself shows.
+NOTES = {
+    # Carbon Fiber Laptop Top Bag (spec 08.03.0670)
+    "3.jpeg": "The outer shell is 0.5 mm silicone-coated fiberglass cloth. The silicone face is smooth and dustproof, "
+              "so it wipes clean, and the fiberglass base does not let an open flame spread.",
+    "2.jpeg": "Front with the combination code lock, and the plain back. Under the shell, a layer of EVA foam cushions "
+              "knocks and drops, and its closed pores slow heat travelling inwards.",
+    "WhatsApp Image 2026-11-14 at 4.05.19 PM.jpeg": "The zipper is a fire-retardant metal zipper on flame-retardant "
+              "tape (rated UL94 V0), so the opening is not the weak point when the bag is closed.",
+    "5.jpeg": "38.5 × 28.7 × 7.5 cm. Room for a laptop and documents behind the code lock; the shell resists wear and "
+              "scratches from daily carrying.",
+    "4.jpeg": "Inside the lid: a 14-section expandable organizer (A–N) for documents, two mesh pockets and a zippered "
+              "mesh pocket, all protected by the same fire-resistant outer layers.",
+    "6.jpeg": "Card and ID slots for bank cards, licences and ID, plus three mesh pockets for small items.",
+    # Multipurpose Security Bag — shoulder strap (spec 08.05.0223)
+    "8.jpeg": "Outer layer of liquid-silicone fiberglass cloth: fire retardant, waterproof and moisture-proof, and "
+              "scratch-resistant so it does not mark what is inside.",
+    "7.jpeg": "Front and back views. A PP board spacer inside gives the bag its shape and spreads out pressure and "
+              "impacts, so it keeps its form when packed.",
+    "9.jpeg": "36 × 27 × 10 cm. Code lock and carry handle, plus an adjustable, padded shoulder strap for carrying "
+              "cash, phones, jewellery and documents.",
+    "10.jpeg": "The same bag at a glance: card slots, mesh pockets and the main compartment, closed with a fire-retardant "
+               "zipper (flame-retardant tape rated UL94 V0).",
+    "11.jpeg": "Inside: 8 card slots, 3 mesh pockets and a zipped mesh pocket around a spacious main compartment.",
+    # Fire & Waterproof Safety Case (spec 08.05.0224)
+    "16.jpeg": "Outer shell of 0.5 mm silicone fiberglass cloth: flame retardant, waterproof (IPX5 listed) and "
+               "anti-ageing, bonded so the case holds its shape.",
+    "13.jpeg": "Fireproof and waterproof: under the shell sits 15 mm of flame-retardant fiberglass insulation that "
+               "blocks outside heat and cold and absorbs knocks.",
+    "14.jpeg": "39 × 30 × 14 cm. Built-in code lock, fireproof zipper, fireproof stitching thread and extra-reinforced "
+               "stitching, with a strong carry handle.",
+    "15.jpeg": "The silver lining is aluminium foil on fiberglass, rated for −40 °C to 250 °C. It reflects heat, keeps "
+               "moisture out and resists mildew. Lid organizer: a large document pocket, mesh pockets and 16 card slots.",
+    "12.jpeg": "Close-ups of the built-in code lock, fireproof zipper, reinforced stitching and the carry handle.",
+    # Fire-Resistant Document Bag (spec 08.03.0671)
+    "19.jpeg": "Liquid-silicone fiberglass outer: rated for continuous use from −40 °C to 200 °C and short exposure up "
+               "to 800 °C, which slows the spread of fire to the papers inside.",
+    "17.jpeg": "Slim and light, with a carry handle. The outer is also waterproof and dustproof (IPX5) and resists "
+               "acid, alkali and oil.",
+    "20.jpeg": "38 × 20.5 × 6.5 cm. Fire-resistant zipper and fire-resistant edging close the gaps where heat could "
+               "otherwise get in.",
+    "18.jpeg": "Sized for important papers: bonds, registration and property papers, certificates.",
+    "21.jpeg": "The silver inner lining is aluminium foil on fiberglass. It reflects heat away from documents and keeps "
+               "moisture and mildew out.",
+    # Fireproof Battery Box (spec 08.06.0169)
+    "24.jpeg": "A rigid box for lithium-ion batteries, battery packs, power tools and drones. The outer is 0.5 mm "
+               "silicone fiberglass cloth: flame retardant, waterproof and wear-resistant.",
+    "23.jpeg": "Inside: the aluminium-foil fiberglass lining (−40 °C to 250 °C) reflects heat and keeps moisture out, "
+               "with a zippered mesh pocket in the lid.",
+    "25.jpeg": "39.5 × 31 × 25.5 cm. A 4 mm honeycomb board keeps the box rigid and spreads impacts; 5 mm insulation "
+               "cotton lines the top and sides.",
+    "26.jpeg": "Combination code lock, fireproof zipper, two side pockets, reflective (radium) tape and an adjustable "
+               "carrying strap, shown from every side.",
+    "22.jpeg": "Plain back and a reinforced bottom with anti-slip feet, so the box sits steady on any surface.",
+}
+
+
 def main() -> None:
     products = []
     for p in PRODUCTS:
@@ -216,7 +274,7 @@ def main() -> None:
             im.save(os.path.join(folder, name), "WEBP", quality=84, method=6)
             images.append({"src": f"/catalog/bags/{p['category']}/{p['id']}/{name}", "view": view,
                            "caption": caption, "width": im.width, "height": im.height,
-                           "alt": f"{p['name']} — {caption.lower()}"})
+                           "alt": f"{p['name']} — {caption.lower()}", "note": NOTES.get(src, "")})
         products.append({
             "id": p["id"], "name": p["name"], "division": "bags", "category": p["category"],
             "catalogueNo": None, "series": None, "colourway": "Black",

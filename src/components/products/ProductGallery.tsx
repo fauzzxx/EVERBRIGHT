@@ -144,6 +144,12 @@ export function ProductGallery({ images, index, onIndex, stageRef }: Props) {
         )}
       </div>
 
+      {current.note && (
+        <p key={current.src} className="border-t border-midnight/10 bg-paper px-5 py-4 text-[0.86rem] leading-relaxed text-midnight/75 sm:px-6">
+          <span className="eyebrow mr-2 text-[0.55rem] text-gold">{current.caption}</span>
+          {current.note}
+        </p>
+      )}
       {count > 1 && (
         <div className="flex gap-2 bg-ivory-deep/60 p-3" role="tablist" aria-label="Product images">
           {images.map((im, i) => (

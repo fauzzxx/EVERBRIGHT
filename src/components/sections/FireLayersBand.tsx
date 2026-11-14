@@ -42,10 +42,12 @@ export function FireLayersBand() {
             Every bag is built like a cross-section — shell, core, lining, seal.
           </p>
         </div>
-        <p className="max-w-xs text-[0.78rem] leading-relaxed text-ivory/50">
-          Summarised from the manufacturer's material specification. Open a product for its exact layers and listed
-          standards.
-        </p>
+        <div className="max-w-xs">
+          <p className="text-[0.78rem] leading-relaxed text-ivory/50">
+            Summarised from the manufacturer's material specification. Open a product for its exact layers and listed
+            standards.
+          </p>
+        </div>
       </Reveal>
       <Reveal stagger={0.1} className="mt-10 grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
         {LAYERS.map((l, i) => (

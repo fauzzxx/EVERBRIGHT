@@ -9,6 +9,8 @@ export interface ProductImage {
   alt: string;
   width: number;
   height: number;
+  /** plain-language explanation of what this photo shows (Fire and Safety) */
+  note?: string;
 }
 
 export interface SpecLayer {

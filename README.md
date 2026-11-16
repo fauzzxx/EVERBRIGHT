@@ -6,6 +6,10 @@ EVERBRIGHT UNIFORMS, EVERBRIGHT POLICE STORE and EVERBRIGHT FIRE AND SAFETY.
 React 19 · TypeScript · Vite 6 · Tailwind CSS 4 · GSAP 3 + ScrollTrigger · Lenis · WebGL (hand-written shader) ·
 React Router 7 · lucide-react · self-hosted Cormorant Garamond + DM Sans.
 
+## Deploy
+
+The ready-to-upload website is in the `website` folder — see [DEPLOY.md](DEPLOY.md).
+
 ## Run locally
 
 ```bash
